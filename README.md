@@ -13,3 +13,10 @@
 搜索接口针对多个关键词处理与文档不一致, 一些分类词会影响到另一些分类词对应POI点的召回
 
 [**CASE**](./examples/p_multi_categories.py) 
+
+
+### 附近搜索接口按距离返回翻页后导致重复POI出现
+
+搜索接口以距离策略召回时翻页后其中一些页数距离错误, POI重复召回等问题
+
+[**CASE**](./examples/p_repeated_pois.py)
